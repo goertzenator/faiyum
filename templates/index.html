@@ -1,12 +1,12 @@
 {% extends "base.html" %}
-
+{% set section = get_section(path="cards/_index.md") %}
 {% block content %}
 
 <h1  style="font-family: CCCutthroat; font-size: 40px; text-align: center;">Faiyum</h1>
 <h2 style="font-family: Myriad Condensed; font-size: 25px; text-align: center;">Unofficial Card Reference</h2>
-<p style="font-family: Myriad Condensed; font-size: 20px; ">Includes cards from the base game and Privileges expansion. Made with permission from 2F-Games.  Content of this site © 2020-2024 2F-Games. Please report errors at xxx.</p>
-
-{% set section = get_section(path="cards/_index.md") %}
+<p style="font-family: Myriad Condensed; font-size: 20px; ">Includes cards from the base game and Privileges expansion.  Content of this site © 2020-2024 2F-Games and used with permission. Please report errors at
+  <a href="https://github.com/goertzenator/faiyum">GitHub</a>.
+</p>
 
 <div style="font-family: CCCutthroat; font-size: 20px; padding: 10px;">
   {% for page in section.pages %}
