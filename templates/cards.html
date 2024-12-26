@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1  style="font-family: CCCutthroat; font-size: 40px; text-align: center;">Faiyum</h1>
+<h2 style="font-family: Myriad Condensed; font-size: 25px; text-align: center;">Unofficial Card Reference</h2>
+<p style="font-family: Myriad Condensed; font-size: 20px; ">Includes cards from the base game and Privileges expansion. Made with permission from 2F-Games.  Content of this site © 2020-2024 2F-Games. Please report errors at xxx.</p>
+
+<div style="font-family: CCCutthroat; font-size: 20px; padding: 10px;">
+  {% for page in section.pages %}
+  <p><a style="color: black; background-color: #ffffffa0; padding: 5px; border-radius: 10px; text-decoration: none;" href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+  {% endfor %}
+</div>
+
+{% endblock content %}
