@@ -2,7 +2,7 @@
 title = "s - farmer"
 weight = 1
 +++
-{{ cardim(path="sfarmer.png") }}
+{{ cardim(path="sfarmer.jpg") }}
 {{ title(txt="s - farmer") }}
 
 *Send out a farmer to gain one of the three basic types of resources.*

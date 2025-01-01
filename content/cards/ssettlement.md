@@ -2,7 +2,7 @@
 title = "s - settlement"
 weight = 2
 +++
-{{ cardim(path="ssettlement.png") }}
+{{ cardim(path="ssettlement.jpg") }}
 {{ title(txt="s - settlement") }}
 
 *Urbanize Faiyum by building a new settlement.*

@@ -2,7 +2,7 @@
 title = "s - two roads"
 weight = 3
 +++
-{{ cardim(path="stworoads.png") }}
+{{ cardim(path="stworoads.jpg") }}
 {{ title(txt="s - two roads") }}
 
 
